@@ -1,0 +1,89 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/victor\/Development\/countdown\/app\/styles\/main\.scss}line{font-family:\000031}}
+.centered {
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/victor\/Development\/countdown\/app\/styles\/main\.scss}line{font-family:\000034}}
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/victor\/Development\/countdown\/app\/styles\/main\.scss}line{font-family:\000038}}
+.outer-center {
+  float: right;
+  right: 50%;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/victor\/Development\/countdown\/app\/styles\/main\.scss}line{font-family:\0000313}}
+.inner-center {
+  float: right;
+  right: -50%;
+  position: relative;
+  display: inline-flex;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/victor\/Development\/countdown\/app\/styles\/main\.scss}line{font-family:\0000319}}
+.clear {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/victor\/Development\/countdown\/app\/styles\/main\.scss}line{font-family:\0000322}}
+.main-form {
+  text-align: center;
+  padding: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/victor\/Development\/countdown\/app\/styles\/main\.scss}line{font-family:\0000326}}
+.main-form label {
+  margin-right: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/victor\/Development\/countdown\/app\/styles\/main\.scss}line{font-family:\0000329}}
+.main-form button {
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/victor\/Development\/countdown\/app\/styles\/main\.scss}line{font-family:\0000332}}
+.main-form input {
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/victor\/Development\/countdown\/app\/styles\/main\.scss}line{font-family:\0000335}}
+.main-form .input-seconds {
+  width: 120px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/victor\/Development\/countdown\/app\/styles\/main\.scss}line{font-family:\0000338}}
+.main-form .input-interval {
+  width: 50px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/victor\/Development\/countdown\/app\/styles\/main\.scss}line{font-family:\0000345}}
+.counter-main .counter-digits
+.separator {
+  position: relative;
+  float: left;
+  width: 20px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 80px;
+  line-height: 87px;
+  padding-top: 8px;
+  color: #666;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/victor\/Development\/countdown\/app\/styles\/main\.scss}line{font-family:\0000355}}
+.counter-main .counter {
+  position: relative;
+  float: left;
+  color: #ccc;
+  margin: 5px;
+  width: 60px;
+  height: 90px;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 87px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, black 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.1)), color-stop(100%, black));
+  background: linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, #000000 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, black 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, black 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, #000000 100%);
+}
