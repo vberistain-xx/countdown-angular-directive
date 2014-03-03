@@ -1,0 +1,76 @@
+.centered{
+    text-align: center;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.outer-center {
+    float: right;
+    right: 50%;
+    position: relative;
+}
+.inner-center {
+    float: right;
+    right: -50%;
+    position: relative;
+    display: inline-flex;
+}
+.clear {
+    clear: both;
+}
+.main-form{
+    text-align: center;
+    padding:40px;
+
+    label{
+        margin-right: 5px;
+    }
+    button{
+        margin-right: 10px;
+    }
+    input{
+        margin-right: 20px
+    }
+    .input-seconds{
+        width: 120px;
+    }
+    .input-interval{
+        width: 50px;
+    }
+}
+.counter-main{
+
+    .counter-digits
+    .separator{
+        position: relative;
+        float: left;
+        width: 20px;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        font-size: 80px;
+        line-height: 87px;
+        padding-top: 8px;
+        color:#666;
+    }
+    .counter{
+        position: relative;
+        float: left;
+        color:#ccc;
+        margin: 5px;
+        width: 60px;
+        height: 90px;
+        font-size: 80px;
+        font-weight: bold;
+        line-height: 87px;
+        border-radius: 6px;
+
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .7);
+
+        background: -moz-linear-gradient(top, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, 1) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, .1)), color-stop(100%, rgba(0, 0, 0, 1)));
+        background: linear-gradient(top, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, 1) 100%);
+        background: -o-linear-gradient(top, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, 1) 100%);
+        background: -ms-linear-gradient(top, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, 1) 100%);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, 1) 100%);
+    }
+}
